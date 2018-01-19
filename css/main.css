@@ -27,14 +27,22 @@ section {
 
 h1 {
   margin: 0;
+  padding: 1rem;
 }
 
 h3 {
   margin: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0;
 }
 
 p {
   margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 a {
@@ -44,7 +52,10 @@ a {
   background-color: #555;
   padding: 0.5em 0.75em;
   border-radius: 4px;
+}
 
+.button {
+  padding: 1rem;
 }
 
 .img-flex {
@@ -52,17 +63,11 @@ a {
   width: 100%;
 }
 
-.wrapper {
-  margin: 0 auto;
-  max-width: 45em;
-  display: block;
-}
-
-.content {
+img {
+  max-width: 38em;
   width: 50%;
   float: left;
 }
-
 
 @media only screen and (min-width: 25em) {
 
