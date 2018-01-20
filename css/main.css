@@ -59,6 +59,10 @@ a {
   padding: 1rem;
 }
 
+div {
+  display: inline-block;
+}
+
 img {
   max-width: 100%;
   display: inline-block;
@@ -83,6 +87,18 @@ img {
     font-size: 110%;
     line-height: 1.4;
   }
+  .content {
+    max-width: 50%;
+  }
+
+  .img {
+    max-width: 49%;
+  }
+
+  .wrapper {
+    padding: 2rem 0;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
