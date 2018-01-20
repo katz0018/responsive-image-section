@@ -97,8 +97,8 @@ img {
 
   .wrapper {
     padding: 2rem 0;
+    max-height: 40em;
   }
-
 }
 
 @media only screen and (min-width: 60em) {
