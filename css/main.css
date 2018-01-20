@@ -44,6 +44,7 @@ p {
   padding-left: 1rem;
   padding-right: 1rem;
   max-width: 90%;
+  text-align: left;
 }
 
 a {
@@ -53,6 +54,7 @@ a {
   background-color: #555;
   padding: 0.5em 0.75em;
   border-radius: 4px;
+  text-align: center;
 }
 
 .button {
@@ -104,6 +106,7 @@ img {
 
   .wrapper {
     padding: 2rem 0;
+    vertical-align: middle;
   }
 }
 
