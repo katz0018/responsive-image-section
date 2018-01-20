@@ -43,6 +43,7 @@ p {
   padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
+  max-width: 90%;
 }
 
 a {
@@ -58,15 +59,14 @@ a {
   padding: 1rem;
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
+img {
+  max-width: 100%;
+  display: inline-block;
 }
 
-img {
-  max-width: 38em;
-  width: 50%;
-  float: left;
+.content {
+  max-width: 100%;
+  display: inline-block;
 }
 
 @media only screen and (min-width: 25em) {
