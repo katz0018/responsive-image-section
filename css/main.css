@@ -57,6 +57,10 @@ a {
   text-align: center;
 }
 
+a:hover {
+  background-color: #000;
+}
+
 .button {
   padding: 1rem;
 }
@@ -101,11 +105,11 @@ img {
   }
 
   .img {
-    max-width: 53%;
+    max-width: 18em;
   }
 
   .wrapper {
-    padding: 2rem 0;
+    padding: 1rem 0;
     vertical-align: middle;
   }
 }
@@ -119,13 +123,21 @@ img {
 
   .wrapper {
     padding: 1rem 0;
+    max-width: 50em;
   }
 
+  .img {
+    max-width: 25em;
+  }
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  .wrapper {
+    max-width: 49em;
   }
 }
